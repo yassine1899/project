@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+.Navbar {
+  max-width: 1300px;
+  height: 90px;
+  margin: auto;
+  border-radius: 60px;
+  background-color: darkred;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+}
+#brand {
+  text-decoration: none;
+  color: white;
+  font-family: "Playfair Display", serif;
+}
+#brand h1,
+#brand p {
+  margin: 0;
+}
+#brand p {
+  font-family: "Dancing Script", cursive;
+}
+.searchForm {
+  width: 300px;
+  height: 40px;
+  display: flex;
+}
+.searchForm input,
+.searchForm button {
+  min-width: 40px;
+}
+.searchForm input {
+  width: 70%;
+  border-top-left-radius: 50px;
+  outline: none;
+  border: none;
+  border-bottom-left-radius: 60px;
+  background-color: rgb(177, 177, 212);
+  color: white;
+   padding: 0 15px;
+}
+.searchForm button {
+  width: 30%;
+  outline: none;
+  color: white;
+  border: none;
+  background-color: rgb(177, 177, 212);
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+ cursor: pointer;
+}
+.searchForm input:focus {
+  border-left: 2px solid rgb(255, 255, 255);
+  border-top: 2px solid rgb(255, 255, 255);
+  border-bottom: 2px solid rgb(255, 255, 255);
+}
+.searchForm input:focus + button {
+  border-right: 2px solid rgb(255, 255, 255);
+  border-top: 2px solid rgb(255, 255, 255);
+  border-bottom: 2px solid rgb(255, 255, 255);
+}
+.searchForm button:hover{
+     background-color: rgb(177, 177, 212);
+}
